@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import img1 from '../images/img1.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -28,9 +28,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">
+            PRIMARY HEALTH CARE <br />
+            CLINICS MANAGEMENT SYSTEM
+          </h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={img1} alt="" />
           </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
@@ -62,7 +65,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">SERVICES</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -114,7 +117,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">REGISTER/LOGIN CLINIC</h2>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -130,7 +133,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Register" className="special" />
               </li>
               <li>
                 <input type="reset" value="Reset" />
@@ -139,28 +142,22 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
+              <a href="#" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="#" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="#" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
+              <a href="#" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>

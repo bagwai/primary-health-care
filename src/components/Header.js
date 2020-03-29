@@ -1,20 +1,20 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+// import img3 from '../images/img3.jpg'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-hospital"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>PRIMARY HEALTH CARE CLINICS MANAGEMENT SYSTEM</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          Primary Health Care Management System.
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          An effective system for collection, Management and manupulation of
+          Primary Health care clinics data.
         </p>
       </div>
     </div>
@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Home
           </button>
         </li>
         <li>
@@ -35,7 +35,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Registration
           </button>
         </li>
         <li>
@@ -44,7 +44,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            About us
           </button>
         </li>
         <li>
